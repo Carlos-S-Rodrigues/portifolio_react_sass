@@ -1,0 +1,56 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem;
+  background: #000000;
+  border-bottom: 1px solid #ff000093;
+
+  @media only screen and (min-width: 300px) and (max-width:800px){
+    justify-content: space-between;
+
+  }
+}
+
+header .logo{
+  font-size: 1.5em;
+  color:white;  
+  font-weight: bold;
+  text-shadow: 2px 2px 10px red;
+
+  @media only screen and (min-width: 300px) and (max-width:800px){
+    font-size: 1em;
+    
+  }
+}
+
+header ul{
+  display: flex;
+  gap: 5rem;
+
+  @media only screen and (min-width: 300px) and (max-width:800px){
+    display: none;
+  
+  }
+}
+
+header ul li{
+  list-style: none;
+}
+
+header ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+
+  @media only screen and (min-width: 300px) and (max-width:800px){
+    letter-spacing: 0em;
+  }
+
+}
