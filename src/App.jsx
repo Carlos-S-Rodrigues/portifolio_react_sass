@@ -3,7 +3,7 @@
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
 import Jobs from './components/Jobs/Jobs'
-
+import './main.scss'
 
 function App() {
 

@@ -1,7 +1,5 @@
-
-
 .hero-wrapper {
-  background: #000;
+  background: var(--primary-color);
   height: 70vh;
   width: 100%;
   margin: 0;
@@ -21,7 +19,7 @@
 }
 
 .sub {
-  color: #ff000d;
+  color: var(--secondary-color);
   letter-spacing: 0.5em;
   @media only screen and (min-width: 300px) and (max-width:800px){
     letter-spacing: 0.5em;
@@ -66,7 +64,7 @@
 @keyframes glitch-anim {
   $steps: 20;
   @for $i from 0 to $steps {
-    #{percentage($i*(1/$steps))} {
+    #{calc(percentage($i*(1/$steps)))} {
       clip: rect(random(100) + px, 9999px, random(100) + px, 0);
       transform: skew((random(100) / 100) + deg);
     }
@@ -76,7 +74,7 @@
 @keyframes glitch-anim2 {
   $steps: 20;
   @for $i from 0 to $steps {
-    #{percentage($i*(1/$steps))} {
+    #{calc(percentage($i*(1/$steps)))} {
       clip: rect(random(100) + px, 9999px, random(100) + px, 0);
       transform: skew((random(100) / 100) + deg);
     }
@@ -86,7 +84,7 @@
 @keyframes glitch-skew {
   $steps: 10;
   @for $i from 0 to $steps {
-    #{percentage($i*(1/$steps))} {
+    #{calc(percentage($i*(1/$steps)))} {
       transform: skew((random(10) - 5) + deg);
     }
   }
