@@ -2,7 +2,7 @@
 
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
-import Jobs from './components/Jobs/Jobs'
+import Project from './components/Project/Project'
 import './main.scss'
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
     <div className="App">
      <Header/>
      <Hero/>
-     <Jobs/>
+     <Project/>
 
     </div>
   )

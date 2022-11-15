@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-header{
+nav{
   display: flex;
   justify-content: space-around;
   padding: 1.5rem;
@@ -17,7 +17,7 @@ header{
   }
 }
 
-header .logo{
+nav .logo{
   font-size: 1.5em;
   color:#fff  ;  
   font-weight: bold;
@@ -29,7 +29,7 @@ header .logo{
   }
 }
 
-header ul{
+nav ul{
   display: flex;
   gap: 5rem;
   text-align: center;
@@ -40,11 +40,11 @@ header ul{
   }
 }
 
-header ul li{
+nav ul li{
   list-style: none;
 }
 
-header ul li a{
+nav ul li a{
   text-decoration: none;
   color: white;
   font-weight: bold;
