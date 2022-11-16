@@ -7,3 +7,12 @@
   border-bottom: 2px solid var(--tertiary-color) ;
 
 }
+
+.card__wrapper{
+
+  padding-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+  gap: 3rem;
+  justify-content: center;
+}
