@@ -3,6 +3,7 @@ import Hero from './components/Hero/Hero'
 import Project from './components/Project/Project'
 import './main.scss'
 import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
      <Hero/>
      <Project/>
      <Contact/>
+     <Footer/>
     </div>
   )
 }
