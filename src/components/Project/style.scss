@@ -2,13 +2,14 @@
   background: var(--secondary-color);
   padding: 1em;
   text-align: center;
-  color: var(--primary-color);
+  color: #fff;
   border-top: 2px solid var(--tertiary-color);
-  border-bottom: 2px solid var(--tertiary-color) ;
+  border-bottom: 2px solid var(--tertiary-color);
+  text-shadow: 2px 2px 2px var(--primary-color);
 
 }
 
-.card__wrapper{
+.card-wrapper{
 
   padding-top: 5rem;
   display: grid;

@@ -33,11 +33,11 @@ function Contact() {
         <div className="social-wrapper">
           <div className='social-media'>
             <AiOutlineLinkedin className='social-icon' size={25}/>
-            <a href="https://www.linkedin.com/in/carlos-rodrigues-a98444b9/">Linkedin</a>
+            <a href="https://www.linkedin.com/in/carlos-rodrigues-a98444b9/" target="_blank">Linkedin</a>
           </div>
           <div className='social-media'>
             <VscGithub className='social-icon' size={25}/>
-            <a href="https://github.com/Carlos-S-Rodrigues">Github</a>
+            <a href="https://github.com/Carlos-S-Rodrigues" target="_blank">Github</a>
           </div>
         </div>
       

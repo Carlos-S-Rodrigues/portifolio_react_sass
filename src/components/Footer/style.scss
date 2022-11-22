@@ -1,8 +1,15 @@
-.copy-txt{
-  text-align: center;
-  align-items: center;
+.footer-wrapper{
   background-color: var(--secondary-color);
   color: #fff;
   border-top: 2px solid var(--tertiary-color);
   height: 2.5rem;
+}
+
+
+
+.copy-txt{
+  padding-top: 0.5rem;
+  text-align: center;
+  align-items: center;
+ 
 }

@@ -19,6 +19,7 @@
 }
 
 .sub {
+  padding-top:0.5em ;
   color: var(--secondary-color);
   letter-spacing: 0.5em;
   @media only screen and (min-width: 300px) and (max-width:800px){
@@ -39,7 +40,7 @@
   position: relative;
   color: #fff;
   font-size: 4em;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.3em;
   animation: glitch-skew 1s infinite linear alternate-reverse;
 
   @media only screen and (min-width: 300px) and (max-width:800px){
