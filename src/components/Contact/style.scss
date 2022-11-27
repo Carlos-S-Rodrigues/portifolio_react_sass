@@ -11,14 +11,13 @@
 
 .contact-wrapper{
   width: 100%;
-  height: 23rem;
+  height: 29rem;
   padding: 2rem;
   background-color: var(--primary-color);
   display: grid;
-  grid-template-columns: auto auto;
+  justify-content: space-around;
   grid-gap: 0.2rem;
-  
-  
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
 }
 
 .social-wrapper{
@@ -47,41 +46,48 @@
 }
 
 
-.form-wrapper{
-  margin: auto;
-}
-
-
-
-
 .label{
   display:flex;
   margin-left: 5.1rem ;
   color: var(--secondary-color);
   padding-top: 0.5rem;
   padding-bottom: 0.3rem;
+  @media only screen and (min-width: 300px) and (max-width:800px){
+    margin-left: -1.9rem;
+  
+  }
+  
 }
 
 .input-box{
   width: 20rem;
   margin-left: 5rem;
-  padding-right: 0.2rem;
+  padding-left: 0.5rem;
   height: 1.5rem;
   outline: none;
   border-radius: 0.3rem;
+  @media only screen and (min-width: 300px) and (max-width:800px){
+    margin-left: -1.9rem;
+  
+  }
+  
   
 }
 
 .txt-message{
   margin-left: 5rem;
-  padding: 0.4rem;
   width: 20rem;
-  max-width: 20rem;
-  display: block;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
   outline: none;
   height: 7rem;
   max-height: 7rem;
   border-radius: 0.5rem;
+  @media only screen and (min-width: 300px) and (max-width:800px){
+    margin-left: -1.9rem;
+  
+  }
+  
 }
 
 .form-wrapper .input-submit{
@@ -95,6 +101,10 @@
   color: #fff;
   font-weight: 500;
   font-size: 1.2rem;
+  @media only screen and (min-width: 300px) and (max-width:800px){
+    margin-left: -1.9rem;
+  
+  }
   
   
 

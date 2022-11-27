@@ -1,6 +1,6 @@
 .hero-wrapper {
   background: var(--primary-color);
-  height: 70vh;
+  height: 25rem;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -12,6 +12,11 @@
   align-items: center;
   background-size: cover;
   background-position: center;
+  @media only screen and (min-width: 300px) and (max-width:800px){
+    height: 34rem;
+    padding: 1rem;
+
+  }
 }
 
 .hero {
@@ -19,74 +24,50 @@
 }
 
 .sub {
-  padding-top:0.5em ;
-  color: var(--secondary-color);
-  letter-spacing: 0.5em;
-  @media only screen and (min-width: 300px) and (max-width:800px){
-    letter-spacing: 0.5em;
-  }
-}
-
-@mixin glitchCopy {
-  content: attr(data-text);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.glitch {
-  position: relative;
+  width: 90%;
+  margin: auto;
+  padding-top:1rem ;
   color: #fff;
-  font-size: 4em;
-  letter-spacing: 0.3em;
-  animation: glitch-skew 1s infinite linear alternate-reverse;
+  letter-spacing: 0.3rem;
 
+ 
   @media only screen and (min-width: 300px) and (max-width:800px){
-    letter-spacing: 0em;
-  }
+    letter-spacing: 0;
 
-  &::before {
-    @include glitchCopy;
-    left: 2px; 
-    clip: rect(44px, 450px, 56px, 0);
-    animation: glitch-anim 5s infinite linear alternate-reverse;
-  }
-
-  &::after {
-    @include glitchCopy;
-    left: -2px;
-    clip: rect(44px, 450px, 56px, 0);
-    animation: glitch-anim2 5s infinite linear alternate-reverse;
   }
 }
 
-@keyframes glitch-anim {
-  $steps: 20;
-  @for $i from 0 to $steps {
-    #{calc(percentage($i*(1/$steps)))} {
-      clip: rect(random(100) + px, 9999px, random(100) + px, 0);
-      transform: skew((random(100) / 100) + deg);
-    }
-  }
+strong{
+  color: var(--secondary-color);
 }
 
-@keyframes glitch-anim2 {
-  $steps: 20;
-  @for $i from 0 to $steps {
-    #{calc(percentage($i*(1/$steps)))} {
-      clip: rect(random(100) + px, 9999px, random(100) + px, 0);
-      transform: skew((random(100) / 100) + deg);
-    }
-  }
+.hero-title {
+
+  font-size: 4.5rem;
+  letter-spacing: 2rem;
+  padding: .25em 0 .325em;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 0 0 90px var(--tertiary-color);
+
+
+  background: url(https://firebasestorage.googleapis.com/v0/b/portifolio-27d3f.appspot.com/o/stripes3.png?alt=media&token=6206b23c-308d-4fbb-a862-c8f565da8050) repeat-y;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: aitf 80s linear infinite;
+
+
+  -webkit-transform: translate3d(0,0,0);
+  -webkit-backface-visibility: hidden;
+
 }
 
-@keyframes glitch-skew {
-  $steps: 10;
-  @for $i from 0 to $steps {
-    #{calc(percentage($i*(1/$steps)))} {
-      transform: skew((random(10) - 5) + deg);
-    }
+
+@-webkit-keyframes aitf {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
   }
-}
+  

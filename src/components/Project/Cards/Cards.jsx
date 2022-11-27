@@ -1,7 +1,10 @@
 import React from 'react'
 import "./styled.scss"
 
+
+
 function Cards(props) {
+
   return (
       
       <div className="card">
@@ -10,7 +13,7 @@ function Cards(props) {
           <h1 className="card-title">{props.title}</h1>
           <p className="card-description">{props.description}</p>
         </div>
-        <button className="card-btn">View Project</button>
+        <a href={props.link} target="_blank" className="card-btn">View Project</a>
       </div>
     
      

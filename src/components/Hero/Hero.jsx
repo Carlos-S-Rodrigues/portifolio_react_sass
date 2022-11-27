@@ -6,18 +6,18 @@ function Hero() {
     <>
       <div className="hero-wrapper">
         <section className="hero">
-          <h1 className="glitch">Who am i?</h1>
+          <h1 className="hero-title">Who am i?</h1>
           <p className="sub">
-            I'm Carlos Rodrigues, Graphic Designer & Frontend Developer.
+            I'm <strong>Carlos Rodrigues</strong>, Graphic Designer & Frontend Developer.
           </p>
           <p className='sub'>
-          I like to create new things and implement new designs to work whenever possible.
+            What motivates me to work with technology is the fact that it can <strong>improve people's lives</strong>, change points of view and show new possibilities.
           </p>
           <p className='sub'>
-            In constant evolution always looking for the best way to finish the job.
+            Constantly evolving to <strong>bring quality content</strong> around the world in the best way I can.
           </p>
           <p className='sub'>
-          I learn and develop very fast, I'm always ready for new challenges!
+            Fast learner, I'm <strong>always ready for new challenges!</strong>
           </p>
         </section>
       </div>

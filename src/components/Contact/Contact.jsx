@@ -36,8 +36,12 @@ function Contact() {
             <a href="https://www.linkedin.com/in/carlos-rodrigues-a98444b9/" target="_blank">Linkedin</a>
           </div>
           <div className='social-media'>
-            <VscGithub className='social-icon' size={25}/>
-            <a href="https://github.com/Carlos-S-Rodrigues" target="_blank">Github</a>
+            <div className='learn-more'>
+              
+                <VscGithub className='social-icon' size={25}/>
+              
+              <a className='button-text' href="https://github.com/Carlos-S-Rodrigues" target="_blank">Github</a>
+            </div>
           </div>
         </div>
       
@@ -48,7 +52,7 @@ function Contact() {
           <input className='input-box' type="email" name="user_email" placeholder="Your Email" required/>
           <label className='label'>Message</label>
           <textarea className='txt-message' name="message" placeholder="Your message..." required/>
-          <input className='input-submit' type="submit" value="Send" />
+          <input className='input-submit' type="submit" value="Send message" />
         </form>
       </div>  
 
