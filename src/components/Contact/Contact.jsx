@@ -29,7 +29,7 @@ function Contact() {
       <h2 className='contact-headlines'>Here some places you can find me and have a nice talk</h2>
 
       
-      <div className="contact-wrapper">
+      <div className="contact-wrapper" id='contact'>
         <div className="social-wrapper">
           <div className='social-media'>
             <AiOutlineLinkedin className='social-icon' size={25}/>

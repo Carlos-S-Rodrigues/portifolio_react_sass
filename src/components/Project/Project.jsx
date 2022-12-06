@@ -8,7 +8,7 @@ function Project() {
 
   return (
     <div>
-      <section className="projects">
+      <section className="projects" id="myJobs">
         <h2>Here you can see some of my work, as a designer and developer.</h2>
 
         <div className="card-wrapper">

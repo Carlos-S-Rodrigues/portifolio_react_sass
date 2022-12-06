@@ -4,7 +4,7 @@ import './style.scss'
 function Hero() {
   return (
     <>
-      <div className="hero-wrapper">
+      <div className="hero-wrapper" id="aboutMe">
         <section className="hero">
           <h1 className="hero-title">Who am i?</h1>
           <p className="sub">

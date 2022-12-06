@@ -31,9 +31,9 @@ function Header() {
         <p>Carlos Rodrigues</p>
       </div>
       <ul>
-        <li><a href="/" className={activeLink === 'aboutme' ? 'active navvbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('aboutme')}>About Me</a></li>
-        <li><a href="/myjobs" className={activeLink === 'myjobs' ? 'active navvbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('myjobs')}>My Jobs</a></li>
-        <li><a href="/contact" className={activeLink === 'contact' ? 'active navvbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('contact')}>Contact</a></li>
+        <li><a href="#aboutMe" className={activeLink === 'aboutme' ? 'active navvbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('aboutme')}>About Me</a></li>
+        <li><a href="#myJobs" className={activeLink === 'myjobs' ? 'active navvbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('myjobs')}>My Jobs</a></li>
+        <li><a href="#contact" className={activeLink === 'contact' ? 'active navvbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('contact')}>Contact</a></li>
       </ul>
       
     </nav>
