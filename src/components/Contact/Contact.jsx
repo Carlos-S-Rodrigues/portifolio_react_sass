@@ -26,7 +26,7 @@ function Contact() {
   }    
   return (
     <>
-      <h2 className='contact-headlines'>Here some places you can find me and have a nice talk</h2>
+      <h2 className='contact-headlines'>Here some places you can find me and have a nice conversation</h2>
 
       
       <div className="contact-wrapper" id='contact'>

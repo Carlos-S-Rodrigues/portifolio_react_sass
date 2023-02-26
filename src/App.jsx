@@ -4,6 +4,8 @@ import Project from './components/Project/Project'
 import './main.scss'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
+import ArtGallery from './components/ArtGallery/ArtGallery'
+
 
 function App() {
 
@@ -13,6 +15,7 @@ function App() {
      <Header/>
      <Hero/>
      <Project/>
+     <ArtGallery/>
      <Contact/>
      <Footer/>
     </div>
