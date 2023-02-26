@@ -8,7 +8,7 @@ function ArtGallery() {
   const [width, setWidth] = useState(0)
 
   useEffect(()=>{
-    console.log(carousel.current?.scrollWidth, carousel.current?.offsetWidth)
+    //console.log(carousel.current?.scrollWidth, carousel.current?.offsetWidth)
     setWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth )
   })
 
@@ -17,9 +17,9 @@ function ArtGallery() {
     <h2 className='contact-headlines'>Photoshop and Vector arts</h2>
     <div className ="container">
       <motion.div ref={carousel} className="carousel" whileTap={{cursor: "grabbing"}}>
-        <motion.div dragConstraints={{right: 0, left: -width}} className="inner" drag={"x"}>
+        <motion.div dragConstraints={{right: 0, left: - width}} className="inner" drag={"x"}>
           <motion.div className="item">
-            <img src="https://firebasestorage.googleapis.com/v0/b/portifolio-27d3f.appspot.com/o/Portifolio%20desing%2FBANNER%20SUM%2BSOMA%20low.jpg?alt=media&token=b13d7b8a-7e77-4a33-b3ad-8fb6d66c56cd" alt="" set="" />
+          
             <img src="https://firebasestorage.googleapis.com/v0/b/portifolio-27d3f.appspot.com/o/Portifolio%20desing%2Fcapa%20soam%20fitness%2010-4.jpg?alt=media&token=8e77ec32-d95c-4678-959c-1265c4fd0934" alt="" set="" />
             <img src="https://firebasestorage.googleapis.com/v0/b/portifolio-27d3f.appspot.com/o/Portifolio%20desing%2FCapa%20Soma%20Lingerie%20FINALpotifolio.jpg?alt=media&token=6d61787e-1b96-41f0-bc91-b1d2d1d8a309" alt="" set="" />
             <img src="https://firebasestorage.googleapis.com/v0/b/portifolio-27d3f.appspot.com/o/Portifolio%20desing%2FTAG.jpg?alt=media&token=46f0f53a-cded-4b52-8f24-af1838605568" alt="" set="" />
